@@ -16,7 +16,7 @@ times to fill out the forest.
 ## Character script
 
 `scripts/character.gd` is attached to the Character node. It has an exported
-`speed` variable (editable in the Inspector), uses `if` / `elif` / `else` to
+`speed` variable (editable in the Inspector), uses `if` statements to
 decide how the character moves, and reads the keyboard with `Input`.
 
-**Controls:** arrow keys to move, hold Space to run.
+**Controls:** arrow keys to move.
