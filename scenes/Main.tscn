@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=6 format=3]
 
 [ext_resource type="Texture2D" path="res://assets/sky_ground.png" id="1"]
 [ext_resource type="Texture2D" path="res://assets/character.png" id="2"]
 [ext_resource type="PackedScene" path="res://scenes/Tree.tscn" id="3"]
 [ext_resource type="PackedScene" path="res://scenes/Rock.tscn" id="4"]
+[ext_resource type="Script" path="res://scripts/character.gd" id="5"]
 
 [node name="Main" type="Node2D"]
 
@@ -39,3 +40,5 @@ position = Vector2(1000, 540)
 [node name="Character" type="Sprite2D" parent="."]
 position = Vector2(576, 560)
 texture = ExtResource("2")
+script = ExtResource("5")
+speed = 200.0
